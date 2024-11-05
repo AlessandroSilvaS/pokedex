@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff693;
+    font-family: "Press Start 2P", serif;
+}
+.container-main{
+    width: 80%;
+    min-height: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px solid #000000;
+    background-color: #fafafa;
+}
+.container-main .litle-menu{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.container-main .litle-menu .left-litle-menu{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+.container-main .litle-menu .left-litle-menu p{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+}
+.container-main .litle-menu .left-litle-menu img{
+    width: 40px;
+    height: 40px;
+}
+.container-main .litle-menu button{
+    width: 60px;
+    height: 30px;
+    background-color: red;
+    color: #fff;
+    margin-right: 10px;
+    border-radius: 4px;
+    text-shadow: 1px 1px 0 #000;
+    box-shadow: 4px 4px 0 #222; 
+    transition: box-shadow 0.1s, transform 0.1s;
+    cursor: pointer;
+}
+.container-main .litle-menu button:active{
+    box-shadow: 2px 2px 0 #222; /* Efeito de pressionado */
+    transform: translate(2px, 2px);
+}
+.container-main .upper-container .upper-container-informations{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-main .upper-container .upper-container-informations .img-container{
+    width: 50%;
+    height: 80%;
+    margin-left: 10px;
+}
+.container-main .upper-container .upper-container-informations .img-container img{
+    width: 100%;
+    height: 100%;
+}
+.container-main .upper-container .upper-container-informations .datas-container{
+    width: 44%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.container-main .upper-container .upper-container-informations .datas-container p{
+    font-size: 20px;
+}
+.container-main .down-container{
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container-main .down-container .down-container-list{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+    padding: 10;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-main .down-container .down-container-list{
+    list-style-type: none;
+}
+.container-main .down-container .down-container-list button{
+    font-size: 16px;
+    font-family: "Press Start 2P", serif;
+    padding: 10px;
+    border-radius: 4px;
+    text-shadow: 1px 1px 0 #000;
+    box-shadow: 4px 4px 0 #222; 
+    transition: box-shadow 0.1s, transform 0.1s;
+    cursor: pointer;
+}
+.container-main .down-container .down-container-list button:active{
+    box-shadow: 2px 2px 0 #222; 
+    transform: translate(2px, 2px);
+}
+.container-main .down-container #prompt{
+    width: 90%;
+    height: 150px;
+    margin-left: 5%;
+    border: 2px solid #000;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    margin-top: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-size: 20px;
+    color: #fff;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="assets/pokebola.png" type="image/x-icon">
+    <title>Esse meu jeito de viver</title>
+</head>
+<body>
+    <div class="container-main">
+        <div class="upper-container">
+            <div class="litle-menu">
+                <div class="left-litle-menu">
+                    <p>Pokemons informations</p>
+                    <img src="images/pokedex.png" alt="pokedex image">
+                </div>
+                <button>X</button>
+            </div>
+            <div class="upper-container-informations">
+                <div class="img-container">
+                    <img id="sprite" src="" alt="Not found pokeImage :/">
+                </div>
+                <div class="datas-container">
+                    <p id="name"></p>
+                    <p id="type"></p>
+                    <p id="height"></p>
+                    <p id="weight"></p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="down-container">
+                <ul class="down-container-list">
+                    <li class="down-container-abilities-item"><button id="ability-button-F" onclick="myPokemonUseThis('first')">ability here</button></li>
+                    <li class="down-container-abilities-item"><button id="ability-button-S" onclick="myPokemonUseThis('second')">ability here</button></li>
+                </ul>
+            <textarea name="prompt" id="prompt" readonly></textarea>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; todos os direitos para o xandin, e os japones</p>
+    </footer>
+    <script type="module" src="dist/main.js"></script>
+</body>
+</html>

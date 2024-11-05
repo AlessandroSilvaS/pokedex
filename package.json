@@ -1,0 +1,14 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "Treinamento de typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
